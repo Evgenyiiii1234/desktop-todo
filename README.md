@@ -96,7 +96,7 @@
 只能用 Windows 自带的 C# 编译器，**不需要装 Visual Studio，也不需要 .NET SDK**：
 
 ```powershell
-git clone https://github.com/<you>/desktop-todo.git
+git clone https://github.com/Evgenyiiii1234/desktop-todo.git
 cd desktop-todo
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 # 产物：dist\DesktopTodo.exe

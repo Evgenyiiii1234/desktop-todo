@@ -71,7 +71,7 @@ Most todo apps are open-it-and-close-it tools. Every extra step means one glance
 Only the C# compiler shipped with Windows is needed — **no Visual Studio, no .NET SDK**:
 
 ```powershell
-git clone https://github.com/<you>/desktop-todo.git
+git clone https://github.com/Evgenyiiii1234/desktop-todo.git
 cd desktop-todo
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 # output: dist\DesktopTodo.exe
