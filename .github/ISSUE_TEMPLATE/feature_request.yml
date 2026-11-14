@@ -1,0 +1,28 @@
+name: Feature request
+description: 提一个想法
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题
+      description: 先描述场景，再描述方案，比直接说「加个 XX 功能」有用得多
+      placeholder: 我在…… 的时候，需要……
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你设想的做法
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 是否愿意提交 PR
+      options:
+        - 愿意自己写
+        - 可以配合测试
+        - 只是提个想法
+    validations:
+      required: false

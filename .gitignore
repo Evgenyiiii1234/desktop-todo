@@ -1,0 +1,12 @@
+dist/
+bin/
+obj/
+*.exe
+*.pdb
+*.user
+*.suo
+.vs/
+*.log
+
+# 本地预览图
+*.tmp.png
